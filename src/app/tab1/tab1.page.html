@@ -1,17 +1,46 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="warning">
     <ion-title>
-      Tab 1
+      Filmes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+       <h1>Sonic: O Filme</h1>
+       <h2>12 de fevereiro de 2020</h2>
+       <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/Kt9iFdTu5TbAm7tNfc876mrWU.jpg">
+       <p>Depois de descobrir um ouriço pequeno, azul e rápido, um policial de uma pequena cidade deve ajudá-lo a derrotar um gênio do mal que deseja fazer experiências com…</p>
+       <ion-button expand="block" fill="outline">Mais informação</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <h1>Jumanji: P.Fase</h1>
+       <h2>4 de dezembro de 2019</h2>
+       <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/bBRDUTr6jgbD8I8A9DvVGrVbdfB.jpg">
+       <p>Tentado em revisitar o mundo de Jumanji, Spencer (Alex Wolff) decide consertar o jogo de videogame que permite que os jogadores sejam transportados ao local. Logo…</p>
+       <ion-button expand="block" fill="outline">Mais informação</ion-button>
+      </ion-col>
+    </ion-row>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <ion-row>
+      <ion-col size="6">
+       <h1>Operação Big Hero</h1>
+       <h2>24 de outubro de 2014</h2>
+       <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/zBDs1y1fK921HrhdRMqlloUqp5Z.jpg">
+       <p>Cidade de San Fransokyo, Estados Unidos. Hiro Hamada (voz de Ryan Potter) é um garoto prodígio que, aos 13 anos, criou um poderoso robô para participar de lutas…</p>
+       <ion-button expand="block" fill="outline">Mais informação</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <h1>Capitã Marvel</h1>
+       <h2>6 de março de 2019</h2>
+       <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/hVgLHgnsO46oSHJy5I4ekhqtoYv.jpg">
+       <p>A história segue Carol Danvers e como ela se torna um dos heróis mais poderosos do universo quando a Terra é pega no meio de uma guerra galáctica entre duas raças…</p>
+       <ion-button expand="block" fill="outline">Mais informação</ion-button>
+      </ion-col>
+    </ion-row>
+    
+    </ion-grid>
 </ion-content>
